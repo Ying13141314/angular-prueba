@@ -1,21 +1,24 @@
 export const products = [
   {
     id: 1,
-    name: "Phone XL",
-    price: 799,
-    description: "A large phone with one of the best screens"
+    name: "Platano",
+    price: 2,
+    description: "A large phone with one of the best screens",
+    avaliable: true
   },
   {
     id: 2,
-    name: "Phone Mini",
-    price: 99,
-    description: "A great phone with one of the best cameras"
+    name: "Melón",
+    price: 3.99,
+    description: "A great phone with one of the best cameras",
+    avaliable: false
   },
   {
     id: 3,
-    name: "Phone Standard",
-    price: 299,
-    description: ""
+    name: "Sandía",
+    price: 2.99,
+    description: "",
+    avaliable: true
   }
 ];
 

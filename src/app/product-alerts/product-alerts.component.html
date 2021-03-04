@@ -1,3 +1,1 @@
-<p *ngIf="product.price > 700">
-  <button (click)="polleteDeLaVentana.emit()">Notify Me</button>
-</p>
+<button *ngIf="product.avaliable" (click)="polleteDeLaVentana.emit()">Notify Me</button>
